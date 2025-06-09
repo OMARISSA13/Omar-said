@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Said</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#Contact_us">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="Home">
+        <h1>Omar Said</h1>
+        <h2>web designer</h2>
+        <img src="photo_2025-05-31_13-51-20.jpg" alt="This is Omar Said">
+        <p>Welcome to my website</p>
+        <a href="https://www.instagram.com/ictc.us/" target="_blank">Follow me on Instagram</a><br>
+        <a href="https://www.facebook.com/saidictc/?locale=ar_AR" target="_blank">Follow me on Facebook</a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">index.html</div>
+            <div class="skill-box">style.css</div>
+            <div class="skill-box">Robotics</div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>Lectures / Courses</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=PYjyg0LNTfE&list=PLDoPjvoNmBAwClZ1PDcjWilxp9YERUbNt" target="_blank">Course 1: Introduction to HTML</a></li>
+            <li><a href="https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe" target="_blank">Course 2: Basics of CSS</a></li>
+            <li><a href="https://www.youtube.com/watch?v=eKuNnpWhm7c&list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh" target="_blank">Course 3: Getting Started with JavaScript</a></li>
+            <li><a href="https://www.youtube.com/watch?v=k932NeaDtYY&list=PLxEk9RJLlExVe3T7rCkpZXGQCW_5Wj5Nd" target="_blank">Course 4: Robotics for Beginners</a></li>
+        </ul>
+    </section>
+
+    <section id="Contact_us">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Enter your name</label>
+            <input id="name" type="text" name="name">
+
+            <label for="email">Enter your email</label>
+            <input id="email" type="email" name="email">
+
+            <label for="password">Enter your password</label>
+            <input id="password" type="password" name="password">
+
+            <label for="gender">Select your gender</label>
+            <select id="gender" name="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <button type="submit" onclick="window.open('https://www.instagram.com/ictc.us/', '_blank')">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
